@@ -13,6 +13,7 @@ import Multiply from "./sub-pages/multiply";
 import Natural from "./sub-pages/natural_number";
 import Greatest from "./sub-pages/greatest_number";
 import InterestCalculator from "./sub-pages/interest";
+import NumberPrinter from "./sub-pages/generat_numbers";
 
 
 
@@ -50,6 +51,7 @@ export default function App() {
          <Route path="/sumN" element={<Natural />} />
          <Route path="/greatest" element={<Greatest />} />
          <Route path="/interest" element={<InterestCalculator />} />
+         <Route path="/generate" element={<NumberPrinter />} />
          
       </Routes>
     </div>

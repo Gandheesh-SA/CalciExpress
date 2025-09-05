@@ -74,6 +74,13 @@ export default function Maths() {
       navigateTo:"/interest",
       
     },
+     {
+      icon: <FaMoneyBillTrendUp />,
+      title: "Generate nNumbers",
+      para: "Input N and see all the numbers in the range (0,1)",
+      navigateTo:"/generate",
+      
+    },
   ];
 
   return (
