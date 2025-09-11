@@ -39,6 +39,15 @@ export default function SideNav() {
         >
           String
         </NavLink>
+
+        <NavLink
+          to="/javascript"
+          className={({ isActive }) =>
+            isActive ? "sidebar-link active" : "sidebar-link"
+          }
+        >
+          Javascript
+        </NavLink>
         <NavLink
           to="/misc"
           className={({ isActive }) =>

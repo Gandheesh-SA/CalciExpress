@@ -16,6 +16,7 @@ import InterestCalculator from "./sub-pages/interest";
 import NumberPrinter from "./sub-pages/generat_numbers";
 import MultiplicationTable from "./sub-pages/multiplication_table";
 import Strings from "./pages/string_dashboard";
+import JavaScript from "./pages/javascript_dashboard";
 
 
 
@@ -46,6 +47,7 @@ export default function App() {
         <Route path="/physics" element={<Physics />} />
         <Route path="/misc" element={<Misc />} />
         <Route path="/string" element={<Strings />} />
+        <Route path="/javascript" element={<JavaScript />} />
          <Route path="/sum" element={<Sum_General />} />
          <Route path="/armstrong" element={<Armstrong />} />
         <Route path="/roots" element={<Roots />} />
