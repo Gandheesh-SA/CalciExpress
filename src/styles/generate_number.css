@@ -54,8 +54,7 @@ body {
 }
 
 .input:focus {
-  border-color: #5c9ded;
-  outline: none;
+  border-color:#6d28d9;
   box-shadow: 0 0 0 3px rgba(92, 157, 237, 0.2);
 }
 
@@ -70,7 +69,7 @@ body {
 
 .button {
   padding: 12px 30px;
-  background: linear-gradient(to right, #4a90e2, #007aff);
+  background: #6d28d9;
   color: white;
   border: none;
   border-radius: 50px;
@@ -82,7 +81,7 @@ body {
 }
 
 .button:hover {
-  background: linear-gradient(to right, #007aff, #4a90e2);
+  background: #6d28d9;
   transform: translateY(-2px);
 }
 
@@ -103,7 +102,7 @@ body {
 }
 
 .number-tile {
-  background-color: #f0f4ff;
+  background-color: #FAF5FE;
   color: #2c3e50;
   padding: 14px 20px;
   border-radius: 10px;
@@ -117,5 +116,30 @@ body {
 
 .number-tile:hover {
   transform: scale(1.05);
-  background-color: #e2ebff;
+  background-color: #FAF5FE;
+}
+
+.multiplication-row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 12px;
+  gap: 8px;
+}
+
+.multiplication-tile {
+  background-color: #FAF5FE;
+  color: #2c3e50;
+  padding: 12px 18px;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 18px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s;
+  min-width: 40px;
+  text-align: center;
+}
+
+.multiplication-tile:hover {
+  transform: scale(1.08);
+  background-color:#FAF5FE;
 }

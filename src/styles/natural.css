@@ -55,7 +55,7 @@ body {
 }
 
 .input:focus {
-  border-color: #5c9ded;
+  border-color: #6d28d9;
   outline: none;
   box-shadow: 0 0 0 3px rgba(92, 157, 237, 0.2);
 }
@@ -67,7 +67,7 @@ body {
 
 .button {
   padding: 12px 30px;
-  background: linear-gradient(to right, #4a90e2, #007aff);
+  background: #6d28d9;
   color: white;
   border: none;
   border-radius: 50px;
@@ -79,7 +79,7 @@ body {
 }
 
 .button:hover {
-  background: linear-gradient(to right, #007aff, #4a90e2);
+  background: l#6d28d9;
   transform: translateY(-2px);
 }
 

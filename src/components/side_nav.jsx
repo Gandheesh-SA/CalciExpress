@@ -31,6 +31,14 @@ export default function SideNav() {
         >
           Physics
         </NavLink>
+         <NavLink
+          to="/string"
+          className={({ isActive }) =>
+            isActive ? "sidebar-link active" : "sidebar-link"
+          }
+        >
+          String
+        </NavLink>
         <NavLink
           to="/misc"
           className={({ isActive }) =>

@@ -14,6 +14,8 @@ import Natural from "./sub-pages/natural_number";
 import Greatest from "./sub-pages/greatest_number";
 import InterestCalculator from "./sub-pages/interest";
 import NumberPrinter from "./sub-pages/generat_numbers";
+import MultiplicationTable from "./sub-pages/multiplication_table";
+import Strings from "./pages/string_dashboard";
 
 
 
@@ -43,6 +45,7 @@ export default function App() {
         <Route path="/math" element={<Maths />} />
         <Route path="/physics" element={<Physics />} />
         <Route path="/misc" element={<Misc />} />
+        <Route path="/string" element={<Strings />} />
          <Route path="/sum" element={<Sum_General />} />
          <Route path="/armstrong" element={<Armstrong />} />
         <Route path="/roots" element={<Roots />} />
@@ -52,6 +55,7 @@ export default function App() {
          <Route path="/greatest" element={<Greatest />} />
          <Route path="/interest" element={<InterestCalculator />} />
          <Route path="/generate" element={<NumberPrinter />} />
+         <Route path="/multiplication_table" element={<MultiplicationTable/>} />
          
       </Routes>
     </div>

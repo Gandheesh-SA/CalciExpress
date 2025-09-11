@@ -6,6 +6,8 @@ import { FaMoneyBillTrendUp } from "react-icons/fa6";
 import { GiStrong } from "react-icons/gi";
 import { TbSum } from "react-icons/tb";
 import { ImCross } from "react-icons/im";
+import { LuTable } from "react-icons/lu";
+
 
 import Card from "../components/card";
 
@@ -76,9 +78,16 @@ export default function Maths() {
     },
      {
       icon: <FaMoneyBillTrendUp />,
-      title: "Generate nNumbers",
+      title: "Generate n-Numbers",
       para: "Input N and see all the numbers in the range (0,1)",
       navigateTo:"/generate",
+      
+    },
+       {
+      icon: <LuTable />,
+      title: "Generate Multiplication Table",
+      para: "Input a number check the multiplication table of it.",
+      navigateTo:"/multiplication_table",
       
     },
   ];
